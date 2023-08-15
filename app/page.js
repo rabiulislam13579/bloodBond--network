@@ -8,6 +8,7 @@ export default function Home() {
    <h1>bloodBond website</h1>
    <h2>heloo there</h2>
    <h2>heloo there2</h2>
+   <h2>heloo there3</h2>
    </>
   )
 }
