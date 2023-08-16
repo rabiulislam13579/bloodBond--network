@@ -28,7 +28,7 @@ const page = () => {
 </div>
 <div className='form-control'>
 <label className='py-2 text-xs md:text-sm' >Email</label>
-<input type="email" placeholder="Type here" className="input input-bordered w-full max-w-xl lg:max-w-md " />
+<input type="email" placeholder="Type here" className="input input-bordered w-full max-w-xl lg:max-w-xl " />
 </div>
 <div className='md:flex justify-between'>
 <div className='form-control'>
