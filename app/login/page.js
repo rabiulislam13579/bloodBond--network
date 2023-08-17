@@ -35,7 +35,7 @@ const page = () => {
 
 <div className='text-center py-2'>
   <button className='btn btn-neutral  md:w-full '>
-    Login  
+    LogIn  
   </button>
 </div>
 
