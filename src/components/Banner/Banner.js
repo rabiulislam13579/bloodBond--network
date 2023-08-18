@@ -16,7 +16,7 @@ export const metadata = {
   title: "BloodBond--Network || Home",
   description: "Spider Alpha",
 };
-const HomePage = () => {
+const Banner = () => {
   return (
     <>
       <div className="w-[25%] mx-auto flex gap-2">
@@ -98,4 +98,4 @@ const HomePage = () => {
     </>
   );
 };
-export default HomePage;
+export default Banner;
