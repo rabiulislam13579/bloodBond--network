@@ -1,8 +1,6 @@
 import './globals.css'
 import { Inter } from 'next/font/google'
 import Provider from './provider'
-import Link from 'next/link'
-import Navber from './Navber/Navber'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -18,7 +16,6 @@ export default function RootLayout({ children }) {
         <Provider>
 
             <div>
-             <Navber></Navber>
          {children}
         </div>  
         </Provider>
