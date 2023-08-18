@@ -23,6 +23,7 @@ export const metadata = {
 };
 const HomePage = () => {
   return (
+<<<<<<< HEAD
     <>
       <div className="w-[25%] mx-auto flex gap-2">
         <div>
@@ -104,3 +105,11 @@ const HomePage = () => {
   );
 };
 export default HomePage;
+=======
+   
+   <>
+<h1>hello world 4</h1>
+   </>
+  )
+}
+>>>>>>> 405f7c3e816de5c0e8f491aa0434dbf19bbb48d4
