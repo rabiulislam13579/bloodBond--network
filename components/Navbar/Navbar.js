@@ -54,8 +54,8 @@
 import Link from 'next/link';
 import React from 'react';
 import './Navbar.css';
-import Image from 'next/image'
-
+import Image from 'next/image';
+import logo from '/app/asset/Blood (2).png'
 const NavItems = () => (
   <>
     <li className='text-white font-semibold'><Link href="/">Home</Link></li>
@@ -79,7 +79,7 @@ const Navbar = () => {
             </ul>
           </div>
           {/* Logo and Name */}
-            <Image className='logo' src="../../asset/logo.svg" width={30} height={20} alt="logo" />
+            <Image className='logo' src={logo} width={40} height={20} alt="logo" />
             <a className="normal-case text-xl font-bold text-white">BloodBond Network</a>
         </div>
         <div className="navbar-center hidden lg:flex">

@@ -1,14 +1,17 @@
 import React from 'react';
 import Image from 'next/image';
-import './Footer.css'
+import './Footer.css';
+import logo from '/app/asset/Blood (2).png'
 
 const Footer = () => {
     return (
-        <footer className="footer p-10 bg-black text-white">
+        <footer className="footer mt-24 p-10 bg-black text-white">
   <div>
-    <Image src="../../asset/logo.svg" width={50} height={20} alt='logo'></Image>
+    <div className="logo flex justify-center items-center">
+    <Image className='justify-center' src={logo} width={50} height={20} alt='logo'></Image>
     <p className='text-xl font-bold'>BloodBond Network</p>
-    <p className=' w-56  '>Empowering lives through blood donation, one heartbeat at a time. Explore our mission to promote blood donation, share stories of impact, and inspire a community of positive change.</p>
+    </div>
+    <p className=' w-56 ms-5 '>Empowering lives through blood donation, one heartbeat at a time. Explore our mission to promote blood donation, share stories of impact, and inspire a community of positive change.</p>
   </div> 
   <div>
     <span className="title text-base font-semibold  text-white  uppercase mb-2">About</span> 
