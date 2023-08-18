@@ -1,19 +1,11 @@
-import Image from 'next/image'
+"use client";
+import Banner from '@/components/Banner/Banner'
 
 export default function Home() {
   return (
-
-    <>
-      <h1>hello world 4</h1>
-      <h1>hello world 4</h1>
-      <h1>hello world 4</h1>
-      <h1>hello world 4</h1>
-      <h1>hello world 4</h1>
-      
-      <h2>Hiiiii</h2>
-    </>
-
-
+    <div>
+      <Banner></Banner>
+    </div>
   )
 
 

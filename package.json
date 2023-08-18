@@ -14,9 +14,16 @@
     "firebase": "^10.2.0",
     "next": "13.4.13",
     "react": "18.2.0",
+<<<<<<< HEAD
+    "react-awesome-slider": "^4.1.0",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.10.1",
+    "swiper": "^10.2.0"
+=======
     "react-dom": "18.2.0",
     "react-hook-form": "^7.45.4",
     "tailwindcss": "3.3.3"
+>>>>>>> 2ad8e38ab34283b728d44bf1ef3d7d7f970a849d
   },
   "devDependencies": {
     "autoprefixer": "^10.4.15",
