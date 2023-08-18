@@ -1,10 +1,11 @@
-import WorksUs from '@/src/components/WorksUs/WorksUs'
-import Image from 'next/image'
+
+import Banner from '@/components/Banner/Banner'
+
 
 export default function Home() {
   return (
     <div>
-      heloo
+      <Banner/>
     </div>
   )
 
