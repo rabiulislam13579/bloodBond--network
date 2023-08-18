@@ -34,7 +34,8 @@ export const AuthProvider = ({children}) => {
         return signInWithPopup(auth, faceookProvider);
       };
     
-      const logout = () => {
+      const logout = () => { 
+        
         setLoading(true);
         return signOut(auth);
       };
