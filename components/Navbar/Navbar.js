@@ -81,8 +81,6 @@ const Navbar = () => {
           {/* Logo and Name */}
             <Image className='logo' src="../../asset/logo.svg" width={30} height={20} alt="logo" />
             <a className="normal-case text-xl font-bold text-white">BloodBond Network</a>
-        
-          
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
@@ -95,6 +93,5 @@ const Navbar = () => {
       </div>
   );
 };
-
 export default Navbar;
 
