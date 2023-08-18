@@ -96,7 +96,7 @@ const HomePage = () => {
             life. A decision to donate your blood can save a life, or even
             several if your blood is separated into its components – red cells,
             platelets and plasma – which can be used individually for patients
-            with specific conditions. <button className="btn btn-outline btn-error btn-xs">see more</button>
+            with specific conditions and support. <button className="btn btn-outline btn-error btn-xs">see more</button>
           </p>
         </div>
       </section>
