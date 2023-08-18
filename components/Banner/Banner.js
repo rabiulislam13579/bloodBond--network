@@ -1,12 +1,15 @@
 "use client";
+// import { FcSearch } from "react-icons/fc";
+
+// import AwesomeSlider from "react-awesome-slider";
+// import withAutoplay from "react-awesome-slider/dist/autoplay";
+// import "react-awesome-slider/dist/styles.css";
+// import "react-awesome-slider/dist/custom-animations/cube-animation.css";
+import AwesomeSlider from 'react-awesome-slider';
+import withAutoplay from 'react-awesome-slider/dist/autoplay';
+import 'react-awesome-slider/dist/styles.css';
+import 'react-awesome-slider/dist/custom-animations/cube-animation.css';
 import { FcSearch } from "react-icons/fc";
-
-import AwesomeSlider from "react-awesome-slider";
-import withAutoplay from "react-awesome-slider/dist/autoplay";
-import "react-awesome-slider/dist/styles.css";
-import "react-awesome-slider/dist/custom-animations/cube-animation.css";
-import React, { useRef, useState } from "react";
-
 
 
 // import required modules
